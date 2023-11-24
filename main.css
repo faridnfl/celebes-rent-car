@@ -1,5 +1,11 @@
 body {
     margin: 0px;
+    overflow-x: hidden;
+    font-family: Open Sans;
+}
+
+img {
+    padding: 0px;
 }
 
 .header-pertama {
@@ -11,7 +17,6 @@ body {
     justify-content: flex-end;
     align-items: center;
     color: white;
-    font-family: Roboto;
 }
 
 
@@ -36,7 +41,6 @@ body {
     background-color: rgb(255, 255, 255);
     border: 1px solid red;
     width: 100%;
-    height: 160px;
     display: flex;
     justify-content: space-between;
 }
@@ -47,12 +51,11 @@ body {
     margin-left: 60px;
 }
 
-.headerkedua-judul h1 {
-    font-weight: normal;
-    font-family: Roboto;
-    font-size: 50px;
+.headerkedua-judul img {
+    width: 250px;
+    height: 200px;
     padding: 0px;
-    margin: 0px;
+
 }
 
 .headerkedua-navbar {
@@ -78,9 +81,120 @@ body {
     color: inherit;
 }
 
+.headerkedua-navbar ul li a:hover {
+    color: red; 
+}
+
 .navbar-button {
     display: none;
 }
+
+.banner {
+    background-color: rgb(247, 78, 78);
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-kiri {
+    color: white;
+    margin-left: 120px;
+    font-size: 20px;
+}
+
+.banner-kanan {
+    margin-right: 30px;
+}
+
+.banner-kanan img {
+    display: inline;
+    width: 650px;
+}
+
+.informasi {
+    width: 100%;
+    height: 500px;
+}
+
+.informasi-atas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 100px 0px 0px 0px;
+    padding: 0px 120px 0px 120px;
+}
+
+.informasi-atas h3{
+    margin: 0px;
+    font-size: 28px;
+}
+
+.informasi-atas p{
+    font-size: 17px;
+    color:rgb(110, 110, 110);
+}
+
+.informasi-bawah {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 0px 120px 0px 120px;
+    margin-top: 50px;
+}
+
+.informasi-bawah img {
+    width: 180px;
+    display: flex;
+}
+
+.informasi-bawah h4 {
+    font-size: 20px;
+    margin: 10px 0px 0px 0px;
+
+}
+
+.informasi-bawah p {
+    font-size: 15px;
+    margin: 10px 0px 0px 0px;
+    color:rgb(110, 110, 110);
+    text-align: center;
+}
+
+.mobil-terawat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mobil-terawat p {
+    padding: 0px 30px 0px 30px;
+}
+
+.tarif-murah p {
+    padding: 0px 30px 0px 30px;
+}
+
+.supir-berpengalaman p {
+    padding: 0px 30px 0px 30px;
+}
+
+.tarif-murah {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.supir-berpengalaman {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
 
 @media only screen and (max-width: 431px) and (min-width: 0px) {
 
