@@ -1,0 +1,324 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    
+  }
+
+.header-pertama {
+    background-color: rgba(64, 64, 64, 0.999);
+    color: white;
+    display: flex;
+    padding: 10px 50px;
+    
+}
+
+.header-nomor {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.header-nomor i {
+    margin-right: 15px;
+}
+
+.header-email {
+    display: flex;
+    align-items: center;
+}
+
+.header-email i {
+    margin-right: 15px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 50px;
+    
+}  
+
+.header-logo img {
+    width: 170px;
+    padding: 10px 0px;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+
+}
+
+.header-nav ul {
+    display: flex;
+}
+
+.header-nav a {
+    color: black;
+    font-size: 27px;
+    padding-right: 55px;
+    cursor: pointer;
+    list-style: none;
+    text-decoration: none;
+}
+
+.header-nav a:hover {
+    color: red;
+}
+
+.banner {
+    background-color: rgb(25, 150, 208);
+    height: 580px;
+    color: white;
+    padding: 0px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.banner-harga h1 {
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+
+.banner-harga h3 {
+    font-weight: normal;
+    margin-bottom: 5px;
+    font-size: 25px;
+}
+
+.banner-harga a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 30px;
+    border: 2px solid white;
+    padding: 12px;
+    border-radius: 5px;
+}
+
+.info {
+    margin-top: 100px;
+}
+
+.info-atas{
+    padding: 0px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.info-atas h2 {
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    font-size: 28px;
+}
+
+.info-atas p {
+    line-height: 25px;
+    color: rgba(0, 0, 0, 0.667);
+    font-size: 20px;
+}
+
+.info-bawah {
+    margin-top: 50px;
+    padding: 0px 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.benefit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 20px;
+    text-align: center;
+}
+
+.benefit img {
+    margin-bottom: 10px;
+}
+
+.benefit h4 {
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+.benefit p {
+    color: rgba(0, 0, 0, 0.701);
+    line-height: 22px;
+    font-size: 20px;
+}
+
+.benefit img {
+    width: 170px;
+}
+
+.service {
+    background-color: rgb(54, 54, 54);
+    color: white;
+    padding: 50px 250px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    height: 550px;   
+    align-items: center;
+}
+
+.service-img img {
+    width: 550px;
+}
+
+.service-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 50px;
+}
+
+
+.service-list h2 {
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.service-list li {
+    font-weight: normal;
+    line-height: 30px;
+    font-size: 20px;
+    list-style: disc;
+}
+
+.kendaraan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    margin-bottom: 100px;
+}
+
+.kendaraan-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.kendaraan-top h2 {
+    margin-bottom: 15px;
+    font-size: 35px;
+    color: rgba(0, 0, 0, 0.823);
+}
+
+.kendaraan-top h4 {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.503);
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 30px;
+}
+
+.list img {
+    background-color: rgb(255, 183, 0);
+    width: 385px;
+    padding: 30px;
+}
+
+.keterangan {
+    background-color: rgba(238, 238, 238, 0.497);
+    text-align: center;
+    padding: 0px 40px;
+    padding-bottom: 30px;
+    
+}
+
+.keterangan h2 {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-size: 30px
+}
+
+.keterangan p {
+    color: rgba(0, 0, 0, 0.651);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.677);
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+    font-size: 20px;
+}
+
+.kendaraan-list {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+.list-more {
+    margin-top: 50px;
+    border: 2px solid rgb(77, 149, 251);
+    border-radius: 10px;
+    padding: 15px;
+    background-color: rgb(77, 149, 251);
+    color: white;
+    font-size: 20px;
+}
+
+footer {
+    color: white;
+    background-color: rgb(59, 59, 59);
+    height: 300px;
+    padding: 50px 50px;
+}
+
+
+.details p {
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.738);
+    width: 450px;
+}
+
+.details h2 {
+    border-bottom: 2px solid rgb(26, 162, 241);
+    width: 250px;
+    padding-bottom: 20px;
+}
+
+.contact-center {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.detail-alamat {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.detail-alamat i {
+    margin-right: 15px;
+}
+
+.detail-email {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.detail-email i {
+    margin-right: 15px;
+}
+
+.detail-nomor {
+    display: flex;
+    align-items: center;
+}
+
+.detail-nomor i {
+    margin-right: 15px;
+}
